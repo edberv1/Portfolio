@@ -1,0 +1,550 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+/*navbar*/
+
+.navbar {
+  width: 100vw;
+  height: 100px;
+  background: rgba(51, 59, 80, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+.nav-center {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: end;
+}
+.a {
+  margin-top: 10px;
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 40px ;
+  scroll-behavior: smooth;
+}
+.a-home{
+  color: #0083e8;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 16px;
+  margin-right: 40px;
+}
+.logo {
+ width: 100px;
+ height: 50px;
+ margin-right: 250px;
+}
+
+/*home*/
+
+.home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 715px;
+  background: url("https://wallpaperaccess.com/full/1567666.png");
+  background-size: cover;
+  z-index: -1;
+}
+.different{
+  color: #0083e8;
+}
+.p1{
+  font-size: 80px;
+  color: white;
+  margin-top: 50px;
+}
+.p2{
+  font-size: 40px;
+  color: white;
+}
+
+/*experience*/
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  height: 715px;
+  background: url("https://wallpaperaccess.com/full/1567666.png");
+  background-size: cover;
+  color: grey;
+}
+.experience>h3{
+  color: gray;
+}
+.experiences{
+  width: 800px;
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px;
+}
+.figma{
+  display: flex;
+  margin-bottom: 20px;
+}
+.figmahr{
+  margin-left: 85px;
+  margin-right: 8px;
+  width: 570px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.figmahr:hover{
+  background-position: left;
+}
+.htmlcss{
+  display: flex;
+  margin-bottom: 20px;
+}
+.htmlcsshr{
+  margin-left: 30px;
+  margin-right: 8px;
+  width: 570px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.htmlcsshr:hover{
+  background-position: left;
+}
+.js{
+  display: flex;
+  margin-bottom: 20px;
+}
+.jshr{
+  margin-left: 30px;
+  margin-right: 8px;
+  width: 550px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.jshr:hover{
+  background-position: left;
+}
+.reactjs{
+  display: flex;
+  margin-bottom: 20px;
+}
+.reactjshr{
+  margin-left: 54px;
+  margin-right: 8px;
+  width: 500px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.reactjshr:hover{
+  background-position: left;
+}
+.nodejs{
+  display: flex;
+  margin-bottom: 20px;
+}
+.nodejshr{
+  margin-left: 65px;
+  margin-right: 8px;
+  width: 450px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.nodejshr:hover{
+  background-position: left;
+}
+.java{
+  display: flex;
+  margin-bottom: 20px;
+}
+.javahr{
+  margin-left: 100px;
+  margin-right: 8px;
+  width: 400px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.javahr:hover{
+  background-position: left;
+}
+.illustrator{
+  display: flex;
+  margin-bottom: 20px;
+}
+.illustratorhr{
+  margin-left: 22px;
+  margin-right: 8px;
+  width: 450px;
+  height: 20px;
+  border-radius: 8px;
+  background: linear-gradient(to left, white 50%, #0083e8 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+.illustratorhr:hover{
+  background-position: left;
+}
+
+/*about*/
+
+.about{
+  background: url("https://wallpaperaccess.com/full/1567666.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 715px;
+  background-size: cover;
+  
+}
+.aboutme{
+  width: 900px;
+  height: 600px;
+  background-color:#333b50;
+  position: absolute;
+  top: 85%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 100px;
+  font-size: 22px;
+  
+}
+.aboutme>p{
+  text-align: justify;
+}
+.ubt{
+  text-decoration: none;
+  color: #0083e8;
+}
+.aboutLogo{
+  width: 150px;
+  height: 75px;
+  position: relative;
+  bottom: 50px;
+}
+.resume-btn{
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid #0083e8;
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: px;
+}
+.resume-btn:hover{
+  background-color: #0083e8;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* projects */
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  background: url("https://wallpaperaccess.com/full/1567666.png");
+  background-size: cover;
+  width: 100vw;
+  height: 715px;
+  color: white;
+}
+.myproj{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1prj{
+  font-size: 80px;
+}
+.h3prj{
+  color: grey;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.photo{
+  width: 500px;
+  height: 280px;
+}
+.flip-box {
+  background-color: transparent;
+  width: 600px;
+  height: 350px;
+  border:none;
+  perspective: 1000px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back {
+  background-color: #333b50;
+  color: white;
+  transform: rotateY(180deg);
+}
+.photo-i{
+  width: 300px;
+  height: 400px;
+}
+.flip-box-i {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  border: none;
+  perspective: 1000px;
+}
+.flip-box-inner-i {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box-i:hover .flip-box-inner-i {
+  transform: rotateY(180deg);
+}
+.flip-box-front-i, .flip-box-back-i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back-i {
+  background-color: #333b50;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.img-container{
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.about-img{
+  width: 285px;
+  height: 200px;
+  margin-right: 5px;
+}
+.give-img{
+  width: 285px;
+  height: 200px;
+}
+
+
+/* contact */
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://wallpaperaccess.com/full/1567666.png");
+  background-size: cover;
+  width: 100vw;
+  height: 715px;
+}
+.footerlogo{
+  width: 100px;
+  height: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px;
+}
+.contact-container{
+  width: 900px;
+  height: 600px;
+  background-color: #333b50;
+  border-radius: 6px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 2800px;
+}
+.info{
+  display: flex;
+  flex-direction: column; 
+  margin-left: 100px;
+  margin-top: 120px;
+  padding: 10px;
+  float: left;
+}
+.info>a{
+  text-decoration: none;
+  color: white;
+}
+.form-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.nameEmail{
+  display: inline-block;
+}
+.form-container>form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+.contacti{
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-style: italic;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: #333b50;
+  position: relative;
+  top: 307px;
+  color: white;
+}
+.footer>p{
+  margin-top: 35px;
+}
+.emri{
+  width: 120px;
+  height: 40px;
+  margin-bottom: 5px;
+  float: right;
+  border: none;
+}
+.emaili{
+  width: 120px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.nr{
+  width: 250px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.mesazh{
+  width: 250px;
+  height: 90px;
+  margin-bottom: 5px;
+}
+.sendbtn{
+  width: 250px;
+  height: 40px;
+  background-color: #0083e8;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.sendbtn:hover{
+  background-color: #333b50;
+  cursor: pointer;
+  transition: .5s;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 95px;
+}
+.github{
+  color: white;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.twitter{
+  color: white;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.linkedin{
+  color: white;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.map{
+  color: white;
+  font-size: 30px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0083e8;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.backTop{
+  position: sticky;
+  float: right;
+  margin-top: 10px;
+}
+
+
+
+
+
+/*mobile*/
+
+
+ 
